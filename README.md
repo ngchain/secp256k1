@@ -3,8 +3,8 @@ secp256k1
 
 [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/ngin-network/secp256k1/secp256k1)
 
-Package dcrec implements elliptic curve cryptography needed for working with
-Decred (secp256k1 only for now). It is designed so that it may be used with the
+Package secp256k1 implements secp256k1 elliptic curve cryptography needed for working with
+Decred. It is designed so that it may be used with the
 standard crypto/ecdsa packages provided with go.  A comprehensive suite of test
 is provided to ensure proper functionality.  Package dcrec was originally based
 on work from ThePiachu which is licensed under the same terms as Go, but it has
@@ -31,11 +31,11 @@ $ go get -u github.com/ngin-network/secp256k1
   Demonstrates verifying a secp256k1 signature against a public key that is
   first parsed from raw bytes.  The signature is also parsed from raw bytes.
 
-* [Encryption](https://godoc.org/github.com/decred/dcrd/dcrec/secp256k1#example-package--EncryptMessage)
+* [Encryption](https://godoc.org/github.com/ngin-network/secp256k1#example-package--EncryptMessage)
   Demonstrates encrypting a message for a public key that is first parsed from
   raw bytes, then decrypting it using the corresponding private key.
 
-* [Decryption](https://godoc.org/github.com/decred/dcrd/dcrec/secp256k1#example-package--DecryptMessage)
+* [Decryption](https://godoc.org/github.com/ngin-network/secp256k1#example-package--DecryptMessage)
   Demonstrates decrypting a message using a private key that is first parsed
   from raw bytes.
 
