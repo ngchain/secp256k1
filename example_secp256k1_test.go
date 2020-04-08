@@ -8,7 +8,8 @@ package secp256k1_test
 import (
 	"encoding/hex"
 	"fmt"
-	"github.com/ngin-network/secp256k1"
+
+	"github.com/ngchain/secp256k1"
 )
 
 // This example demonstrates signing a message with a secp256k1 private key that

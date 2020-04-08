@@ -1,7 +1,7 @@
 secp256k1
 =====
 
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/ngin-network/secp256k1/secp256k1)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/ngchain/secp256k1/secp256k1)
 
 Package secp256k1 implements secp256k1 elliptic curve cryptography needed for working with
 Decred. It is designed so that it may be used with the
@@ -18,24 +18,24 @@ use secp256k1 elliptic curve cryptography.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/ngin-network/secp256k1
+$ go get -u github.com/ngchain/secp256k1
 ```
 
 ## Examples
 
-* [Sign Message](https://godoc.org/github.com/ngin-network/secp256k1#example-package--SignMessage)
+* [Sign Message](https://godoc.org/github.com/ngchain/secp256k1#example-package--SignMessage)
   Demonstrates signing a message with a secp256k1 private key that is first
   parsed form raw bytes and serializing the generated signature.
 
-* [Verify Signature](https://godoc.org/github.com/ngin-network/secp256k1#example-package--VerifySignature)
+* [Verify Signature](https://godoc.org/github.com/ngchain/secp256k1#example-package--VerifySignature)
   Demonstrates verifying a secp256k1 signature against a public key that is
   first parsed from raw bytes.  The signature is also parsed from raw bytes.
 
-* [Encryption](https://godoc.org/github.com/ngin-network/secp256k1#example-package--EncryptMessage)
+* [Encryption](https://godoc.org/github.com/ngchain/secp256k1#example-package--EncryptMessage)
   Demonstrates encrypting a message for a public key that is first parsed from
   raw bytes, then decrypting it using the corresponding private key.
 
-* [Decryption](https://godoc.org/github.com/ngin-network/secp256k1#example-package--DecryptMessage)
+* [Decryption](https://godoc.org/github.com/ngchain/secp256k1#example-package--DecryptMessage)
   Demonstrates decrypting a message using a private key that is first parsed
   from raw bytes.
 
